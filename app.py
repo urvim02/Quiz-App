@@ -3,7 +3,7 @@ import langchain
 import openai
 from backend_logic import generate_question, generate_answer_options,generate_quiz
 
-openai.api_key = "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"
+openai.api_key = "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" #YOUR_OPENAI_API_KEY_HERE
 
 st.title("Quiz Generator")
 
